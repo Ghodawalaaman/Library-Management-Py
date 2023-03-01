@@ -11,3 +11,5 @@ class Book:
     def return_back(self, username):
         self.borrowed = False
         self.username = ''
+    def display(self):
+        print(self.name, self.author, self.quantity)
